@@ -1,0 +1,36 @@
+@import '../../../../config-scss/rem-calc.scss';
+
+:host {
+    .tab-information {
+        margin-top: rem-calc(20);
+    }
+
+    .col-title {
+        font-weight: bolder;
+        margin-bottom: rem-calc(20);
+        font-size: rem-calc(22);
+    }
+
+    .imageCharacter {
+        margin-top: 5%;
+        width: rem-calc(85);
+        height: rem-calc(85);
+        background: none;
+        border-radius: rem-calc(5);
+    }
+
+    .btn-pagination {
+        background-color: var(--secondary-color);
+        color: var(--white);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .btn-paginationA {
+        border-radius: rem-calc(30) rem-calc(10) rem-calc(10) rem-calc(10);
+    }
+
+    .btn-paginationP {
+        border-radius: rem-calc(10) rem-calc(30) rem-calc(10) rem-calc(10);
+    }
+}

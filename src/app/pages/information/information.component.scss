@@ -1,0 +1,26 @@
+@import '../../../config-scss/rem-calc.scss';
+
+.main {
+    background: var(--primary-color);
+}
+
+.img-head {
+    width: 100%;
+    height: rem-calc(340);
+}
+
+.title {
+    margin-top: rem-calc(15);
+    color: var(--white);
+    font-weight: bolder;
+    font-size: rem-calc(25);
+}
+
+.information {
+    margin-top: rem-calc(20);
+    text-align: justify;
+    color: var(--secondary-color);
+    font-size: rem-calc(22);
+}
+.info-table{
+}

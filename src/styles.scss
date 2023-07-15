@@ -1,0 +1,10 @@
+@import './config-scss/variables.scss';
+@import './config-scss/reset.scss';
+@import './config-scss/rem-calc.scss';
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@400;600;700&display=swap');
+* {
+    font-family: 'Indie Flower', cursive;
+    background: var(--primary-color);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
